@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src --import-alias \"@/*\")",
+      "Bash(npx create-next-app@latest car-wash --typescript --tailwind --app --import-alias \"@/*\" --eslint)",
+      "Bash(npx create-next-app@latest car-wash --typescript --tailwind --app --import-alias \"@/*\" --eslint --no-src)",
+      "Bash(rm package.json)",
+      "Bash(npx create-next-app@latest car-wash --ts --tailwind --app --eslint --use-npm)",
+      "Bash(pkill -f \"create-next-app\")",
+      "Bash(npm install)",
+      "Bash(npm run build)",
+      "Bash(npm install autoprefixer)",
+      "Bash(npm run dev)",
+      "Bash(git init)",
+      "Bash(git remote add origin https://github.com/Jetfly/FastAndCleaning.git)",
+      "Bash(git add .)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
